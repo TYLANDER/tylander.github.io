@@ -1,24 +1,29 @@
+
+body{
+	background-color: #FFF9F9;
+}
+
 h1 {
 	font-family: Helvetica;
 	size:40px;
 }
 
 a {
-	font-family: Courier;
+	font-family: Helvetica;
 	text-decoration: none;
 }
 
 p {
-	font-family: Courier;
+	font-family: Helvetica;
 	size: 14px;
 }
 
 .navbar {
 	display: inline-block;
 	height: 50px;
-	width: 100px;
-	border: 2px solid black;
-	border-radius: 5px;
-	background-color: #308014;
+	width: 920px;
+	border: 1px solid black;
+	border-radius: 2px;
+	background-color: #CCC5C7;
 	margin: auto;
 }
