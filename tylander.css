@@ -6,16 +6,19 @@ body{
 h1 {
 	font-family: Helvetica;
 	size:40px;
+	color: white;
 }
 
 a {
 	font-family: Helvetica;
 	text-decoration: none;
+	color: red;
 }
 
 p {
 	font-family: Helvetica;
 	size: 14px;
+	color: white;
 }
 
 .navbar {
