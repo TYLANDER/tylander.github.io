@@ -27,6 +27,11 @@ p {
 	width: 920px;
 	border: 1px solid black;
 	border-radius: 2px;
-	background-color: #FFFFFC;
+	background-color: #7F7D7C;
+	margin: auto;
+	margin-top: -20px;
+}
+
+#bateman {
 	margin: auto;
 }
