@@ -30,8 +30,20 @@ p {
 	background-color: #7F7D7C;
 	margin: auto;
 	margin-top: -20px;
+	position: fixed;
 }
 
 #bateman {
 	margin: auto;
 }
+
+/*
+menu css
+display: inline;
+	padding: 5px;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	border-radius: 5px 5px;
+	background-color: #cc0323
+*/
