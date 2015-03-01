@@ -1,30 +1,34 @@
 
 body{
-	background-color: #212020;
+	background-color: #FFFFFF;
 }
 
 h1 {
 	font-family: Helvetica;
 	size:40px;
-	color: white;
+	color: Black;
 }
 
 a {
 	font-family: Helvetica;
 	text-decoration: none;
-	color: red;
+	color: white;
+	size: 16px;
+	display: block;
+	letter-spacing: 1px;
 }
 
 p {
 	font-family: Helvetica;
 	size: 14px;
-	color: white;
+	color: Black;
+	text-align: center;
 }
 
 #navbar {
 	display: inline-block;
 	height: 50px;
-	width: 920px;
+	width: 100%;
 	border: 1px solid black;
 	border-radius: 2px;
 	background-color: #7F7D7C;
@@ -35,7 +39,30 @@ p {
 
 #bateman {
 	margin: auto;
+	align: center;
 }
+
+#CTA {
+	font-family: Helvetica;
+	size: 14px;
+	color: Red;
+	text-align: center;
+	
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	float: right;
+	padding-right: 50px;
+	padding-top: 17px;
+}
+
 
 /*
 menu css
