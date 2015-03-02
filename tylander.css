@@ -1,40 +1,41 @@
 
 body{
 	background-color: #FFFFFF;
+	align: center;
 }
 
 h1 {
-	font-family: Helvetica;
-	size:40px;
+	font-family: 'Questrial', sans-serif;	size:40px;
 	color: Black;
+	text-align: center;
+	padding-top: 80px;
 }
 
 a {
-	font-family: Helvetica;
-	text-decoration: none;
+	font-family: 'Questrial', sans-serif;	text-decoration: none;
 	color: white;
-	size: 16px;
+	font-size: 16px;
 	display: block;
 	letter-spacing: 1px;
 }
 
 p {
-	font-family: Helvetica;
-	size: 14px;
+	font-family: 'Questrial', sans-serif;
+	font-size: 18px;
 	color: Black;
 	text-align: center;
+	line-height: 190%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #navbar {
 	display: inline-block;
-	height: 50px;
+	height: 60px;
 	width: 100%;
-	border: 1px solid black;
-	border-radius: 2px;
 	background-color: #7F7D7C;
-	margin: auto;
-	margin-top: -20px;
-	position: fixed;
+
 }
 
 #bateman {
@@ -42,25 +43,29 @@ p {
 	align: center;
 }
 
-#CTA {
-	font-family: Helvetica;
-	size: 14px;
+p#cta {
+	font-family: 'Questrial', sans-serif;	size: 14px;
 	color: Red;
 	text-align: center;
+	font-size: 24px;
 	
 }
 
 ul {
+	font-family: 'Questrial', sans-serif;
+	letter-spacing: 1px;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
 li {
+	font-family: 'Questrial', sans-serif;
 	display: inline;
 	float: right;
 	padding-right: 50px;
-	padding-top: 17px;
+	padding-top: 23px;
+	letter-spacing: 1px;
 }
 
 
