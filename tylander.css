@@ -11,11 +11,28 @@ h1 {
 	padding-top: 80px;
 }
 
-a {
-	font-family: 'Questrial', sans-serif;	text-decoration: none;
+#logo {
+	font-family: 'Questrial', sans-serif;	
 	color: white;
+	position: fixed;
+	top: 10px;
+	left: 16px;
+	font-size: 28px;
+}
+
+a {
+	font-family: 'Questrial', sans-serif;
+	text-decoration: none;
+	color: #ffffff;
 	font-size: 16px;
-	display: block;
+	letter-spacing: 2px;
+}
+
+#akqa {
+	font-family: 'Questrial', sans-serif;	
+	color: black;
+	text-decoration: underline;
+	font-size: 18px;
 	letter-spacing: 1px;
 }
 
@@ -31,21 +48,23 @@ p {
 }
 
 #navbar {
+	position: fixed;
+	top: 0px;
+	right: 0px;
 	display: inline-block;
-	height: 60px;
+	height: 48px;
 	width: 100%;
 	background-color: #7F7D7C;
+	margin: 0;
+	padding:0;
 
 }
 
-#bateman {
-	margin: auto;
-	align: center;
+
 }
 
-p#cta {
+a p #cta {
 	font-family: 'Questrial', sans-serif;	size: 14px;
-	color: Red;
 	text-align: center;
 	font-size: 24px;
 	
@@ -57,17 +76,35 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	font-color: white;
 }
 
 li {
 	font-family: 'Questrial', sans-serif;
+	font-color: white;
 	display: inline;
 	float: right;
-	padding-right: 50px;
-	padding-top: 23px;
+	padding-right: 40px;
+	padding-top: 16px;
 	letter-spacing: 1px;
 }
 
+#button_cta {
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	  -webkit-border-radius: 20;
+	  -moz-border-radius: 20;
+	  border-radius: 20px;
+	  font-family: 'Questrial', sans-serif;
+	  font-size: 20px;
+	  background: red;
+	  padding: 10px 20px 10px 20px;
+	  width: 16%;
+	  border: solid #000000 2px;
+	  text-decoration: none;
+
+}
 
 /*
 menu css
