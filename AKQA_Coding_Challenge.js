@@ -1,5 +1,8 @@
+//This is the coding challenge for all new akqa employees. The rover team must respond to a series of commands sent to them as consecutive lines. This version moves the rovers upon a visual grid. Later versions will have the ability to make multiple rovers. 
+
 console.log('Rover code loaded');
 
+//Establishing position and movement parameters for the plateau visualization
 var CONST_X_CENTER = 240;
 var CONST_Y_CENTER = 240;
 var CONST_STEP = 25;
@@ -99,7 +102,7 @@ function createRover() {
 
 //commandRover(newRover);
 
-	//the rover commands
+//the rover commands
 function commandRover( rover ) {
 	console.log('Initiating commands for rover ' + rover.name );
 	

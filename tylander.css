@@ -18,15 +18,27 @@ h1 {
 	top: 10px;
 	left: 16px;
 	font-size: 28px;
+	text-decoration: none;
 }
 
-a {
+#links {
+	font-family: 'Questrial', sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+/*a {
 	font-family: 'Questrial', sans-serif;
 	text-decoration: none;
 	color: #ffffff;
 	font-size: 16px;
 	letter-spacing: 2px;
 }
+
+*/
+
 
 #akqa {
 	font-family: 'Questrial', sans-serif;	
@@ -57,17 +69,17 @@ p {
 	background-color: #7F7D7C;
 	margin: 0;
 	padding:0;
-
 }
 
 
-}
-
-a p #cta {
-	font-family: 'Questrial', sans-serif;	size: 14px;
+#cta {
+	font-family: 'Questrial', sans-serif;	font-size: 18px;
+		text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
 	text-align: center;
-	font-size: 24px;
-	
+	color: red;	
+
 }
 
 ul {
@@ -89,22 +101,6 @@ li {
 	letter-spacing: 1px;
 }
 
-#button_cta {
-	text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-	  -webkit-border-radius: 20;
-	  -moz-border-radius: 20;
-	  border-radius: 20px;
-	  font-family: 'Questrial', sans-serif;
-	  font-size: 20px;
-	  background: white;
-	  padding: 10px 20px 10px 20px;
-	  width: 16%;
-	  border: solid #000000 2px;
-	  text-decoration: none;
-
-}
 
 /*
 menu css
